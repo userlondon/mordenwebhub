@@ -1,0 +1,33 @@
+/* ****** Hero section ******* */
+@keyframes fadeup {
+  from {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* PRELOAD */
+@keyframes loader {
+  0% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+@keyframes fading_show {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

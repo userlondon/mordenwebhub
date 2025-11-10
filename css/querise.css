@@ -1,0 +1,397 @@
+/* BELOW SMALLER DESKTOP SCREEN */
+
+/* 1344px / 16px = 84em */
+@media (max-width: 84em) {
+  html {
+    font-size: 60%;
+  }
+
+  .dots {
+    top: 80%;
+  }
+
+  .trade_content {
+    right: 11%;
+  }
+
+  .btc_ticker {
+    transform: translate(120%, -40%);
+  }
+
+  .related {
+    padding: 0 9.6rem;
+  }
+}
+
+/*  TABLET */
+/* 768 / 16 = 48 */
+@media (max-width: 48em) {
+  html {
+    /* font-size: 58%; */
+  }
+
+  .marquee {
+    max-width: 100%;
+  }
+
+  .nav {
+    gap: 10rem;
+  }
+
+  .trade_ads {
+    padding: 7rem 2rem;
+  }
+
+  .h1 {
+    font-size: 7.5rem;
+    line-height: 1.8;
+  }
+
+  .hero_text {
+    /* font-size: 1.6rem; */
+    line-height: 2;
+  }
+
+  .personal {
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .aside-box {
+    transform: translateX(0);
+  }
+
+  .about_content h2 {
+    margin: 0;
+  }
+
+  .about_section {
+    padding: 0 4.8rem;
+  }
+
+  .about_img {
+    height: 30rem;
+    object-fit: cover;
+  }
+
+  .social-icons {
+    display: inline-flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(2rem);
+  }
+
+  .personal_text-box h1 {
+    font-size: 2rem;
+    color: var(--txt);
+    font-family: var(--mono);
+    letter-spacing: 0.02em;
+  }
+
+  .personal-text {
+    color: var(--muted);
+    font-weight: 500;
+    font-size: 1.4rem;
+    letter-spacing: 0.02em;
+  }
+
+  .about-text {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2;
+    padding: 1rem;
+    color: var(--muted);
+  }
+
+  .personal_text-box .c {
+    padding: 1rem;
+    color: var(--txt);
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .crypto_chart-wrapper canvas {
+  }
+
+  .btc_ticker {
+    transform: translate(10%, -55%);
+  }
+
+  .trade_content {
+    right: 1%;
+  }
+
+  .project_content h3 {
+    /* font-size: 3rem; */
+    text-transform: capitalize;
+    padding: 1rem;
+  }
+
+  .template_items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+
+  .connect {
+    min-height: 50vh;
+    width: 100%;
+    overflow: visible;
+    border-radius: var(--radius);
+    padding: 3rem;
+  }
+
+  .contact-form {
+    width: 100%;
+    background: var(--glass);
+    padding: 1.25rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-sm);
+  }
+}
+
+/* SMALLER TABLET */
+/* 640 / 16 = 40 */
+@media (max-width: 40em) {
+  .header {
+    justify-content: start;
+  }
+
+  br {
+    display: block;
+  }
+
+  .fullimage {
+    max-height: 100%;
+    max-width: 100%;
+    padding: 1.6rem;
+  }
+
+  /* Mobile Navigation */
+  .nav_list {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    align-items: start;
+
+    width: 100%;
+    padding: 3.2rem;
+
+    background: linear-gradient(
+      180deg,
+      rgba(7, 12, 24, 0.966),
+      rgba(7, 12, 24, 0.815)
+    );
+
+    border-radius: 0px 0px 0px 0px;
+    transition: all 0.4s ease-in-out;
+    z-index: 200;
+    box-shadow: 1px 4px 8px 1px var(--card);
+
+    transform: translateX(0);
+
+    transition: all 0.4s ease-in-out;
+    animation: fading_show 1s ease-in-out;
+  }
+
+  .nav_child a:link,
+  .nav_child a:visited {
+    font-size: 1.24rem;
+    color: #fff;
+    font-size: 1.88em;
+    transition: all 0.4s ease-in-out;
+    animation: fading_show 3s ease-in-out;
+  }
+
+  .nav-btn--box {
+    display: block;
+    position: absolute;
+    right: 1rem;
+    z-index: 210;
+  }
+
+  #closeMenu {
+    display: none;
+    transition: all 0.4s ease-in-out;
+    animation: fading_show 1s ease-in-out;
+  }
+
+  .hero_section {
+    padding: 3rem 5rem;
+  }
+
+  .h1 {
+    line-height: 1;
+    margin-bottom: 7.5rem;
+    font-size: 8rem;
+  }
+
+  .hero_text {
+    text-align: center;
+    /* font-size: 1.6rem; */
+  }
+
+  .personal {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .personal-text {
+    font-size: 1.6rem;
+  }
+
+  .about-text {
+    font-size: 1.4rem;
+  }
+
+  .aside-box {
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    /* margin: 0 0 0 4rem; */
+    margin: 0 auto;
+    /* gap: 4rem;*/
+  }
+
+  .skill-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .skill .dash {
+    margin-bottom: 2rem;
+  }
+
+  .social-icons-content {
+    display: inline-flex;
+    gap: 0.66em;
+  }
+
+  .gd {
+    transform: translate(50%, -20%);
+  }
+
+  .trade_content a:link,
+  .trade_content a:visited,
+  .crypto_title,
+  .btc_live-title {
+    font-size: 1.2rem;
+  }
+
+  .template_items {
+    grid-template-columns: 1fr;
+    padding: 4rem;
+  }
+
+  .footer_content {
+    grid-template-columns: 1fr;
+    padding: 4rem;
+    gap: 1rem;
+  }
+}
+
+/* MY MOBILE PHONE(REDMI 13 C) */
+/* 487 / 16 = 30. 42 */
+@media (max-width: 30em) {
+  .nav-btn--box {
+    right: 2rem;
+  }
+
+  .browser-img-box {
+    gap: 3rem;
+  }
+
+  .img_b {
+    height: 3.5rem;
+    text-align: center;
+  }
+
+  .browsers p,
+  .browsers figcaption {
+    font-size: 1.2rem;
+  }
+
+  .about_img {
+    height: 25rem;
+  }
+
+  .aside-box {
+    /* gap: 0.55rem; */
+  }
+
+  .aside {
+    text-align: center;
+    margin: 0;
+  }
+
+  .aside address {
+    font-size: 1.4rem;
+  }
+
+  .aside-box {
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    margin: 0;
+  }
+
+  .skill {
+    padding: 2rem;
+    margin: 0;
+  }
+
+  .skill-box {
+    grid-template-columns: 1fr;
+  }
+
+  .gd {
+    transform: translate(-6px, 0);
+  }
+
+  .social-icons {
+    flex-direction: column;
+    transform: translateX(0);
+  }
+
+  .lazy-skill-img {
+    height: 5rem;
+  }
+
+  .social-icons p {
+    margin-bottom: -0.5rem;
+  }
+
+  .trade_content {
+    top: 13rem;
+  }
+
+  .trade_content a:link,
+  .trade_content a:visited {
+    padding: 1.6rem;
+  }
+
+  .btc_ticker {
+    transform: translate(10px, 0px);
+  }
+
+  .crypto_btn {
+    font-weight: 400;
+  }
+
+  .trade_content a:link,
+  .trade_content a:visited,
+  .crypto_title,
+  .btc_live-title {
+    font-weight: 400;
+  }
+}
+
+/* 425 / 16 = 27 */
+@media (max-width: 27em) {
+  .nav-btn--box {
+    right: 1rem;
+  }
+}

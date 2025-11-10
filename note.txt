@@ -1,0 +1,174 @@
+ <div id="preload">
+      <picture>
+        <source srcset="img/hero/hero-1.webp" type="image/webp" />
+        <img
+          class="loader-img"
+          src="img/hero/hero-1.webp"
+          alt="Dickson"
+          loading="lazy"
+        />
+      </picture>
+      <figcaption>Welcome to my Portfolio</figcaption>
+    </div>
+ 
+ 
+ <main>
+        
+
+        
+
+        <section id="template" class="template_section page">
+          <div class="template_content">
+            <h3>templates</h3>
+            <div class="dash"></div>
+
+            <div class="template_items">
+              <div class="template_box difer">
+                <article>creative</article>
+
+                <p>
+                  A sleek and modern template made with love clean, responsive
+                  and flexible. Perfect for giving any project a fresh, creative
+                  touch.
+                </p>
+              </div>
+
+              <div class="template_box lazy-load london-coffee">
+                <picture>
+                  <source
+                    srcset="img/template/london-coffee.webp"
+                    type="../image/webp"
+                  />
+                  <img
+                    id="thumb"
+                    class="img_t thumb lazy"
+                    src="../img/template/london-coffee.webp"
+                    alt="London coffee"
+                    loading="lazy"
+                  />
+                </picture>
+                <h1 class="template_title">London Coffee</h1>
+                <p class="template_discription">
+                  A stylish and user-friendly website built to boost customer
+                  engagement and support London’s coffee scene. Designed for
+                  scalability and modern market needs.
+                </p>
+              </div>
+
+              <div class="template_box lazy-load churchsite">
+                <picture>
+                  <source
+                    srcset="../img/template/churchsite.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    id="thumb"
+                    class="img_t thumb lazy"
+                    src="../img/template/churchsite.webp"
+                    alt="WWJ"
+                    loading="lazy"
+                  />
+                </picture>
+                <h1 class="template_title">
+                  World-Wide Jehovah-Niss Congress Realm (WWJ)
+                </h1>
+                <p class="template_discription">
+                  A faith-driven platform spreading God’s word and creating a
+                  welcoming online community for believers everywhere.
+                </p>
+              </div>
+
+              <div class="template_box lazy-load gymsite">
+                <picture>
+                  <source
+                    srcset="../img/template/gymsite.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    id="thumb"
+                    class="img_t thumb lazy"
+                    src="../img/template/gymsite.webp"
+                    alt="Gym"
+                    loading="lazy"
+                  />
+                </picture>
+                <h1 class="template_title">Gym Website</h1>
+                <p class="template_discription">
+                  Your go-to fitness hub—energizing workouts, expert tips, and a
+                  motivating space to help you build strength and endurance at
+                  every level.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer id="contact" class="footer page">
+        <div class="footer_content">
+          <div class="connect">
+            <article>let's Chat</article>
+            <p>
+              Whether you have a question, want to start a project or simply
+              want to connect.<br />
+              Feel free to send me a message in the contact form
+            </p>
+          </div>
+
+          <form class="contact-form" method="POST" action="send_email.php">
+            <h2>Contact me</h2>
+            <div class="form-group">
+              <label class="label" for="firstName">Full Name*</label><br />
+              <input
+                id="firstName"
+                type="text"
+                name="name"
+                placeholder="Enter here...."
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label class="label" for="email">Email Address*</label><br />
+              <input
+                id="email"
+                type="email"
+                name="email"
+                placeholder="Email Address...."
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label class="label" for="tel">Mobile Number*</label><br />
+              <input
+                id="tel"
+                type="tel"
+                name="number"
+                placeholder="Your number here..."
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label class="label" for="message">Message*</label><br />
+              <textarea
+                id="message"
+                class="textarea"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+
+            <button class="btn" type="submit">send message</button>
+          </form>
+        </div>
+        <p class="copyright">Copyright &copy; Dickson Jack 2025.</p>
+      </footer>
+
+       <!-- OVERLAY -->
+      <div id="overlay" class="overlay">
+        <span class="close-btn" id="close">&times;</span>
+        <img id="fullImage" class="fullimage" src="" alt="" loading="lazy" />
+      </div>
